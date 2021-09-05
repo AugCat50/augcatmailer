@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ * todo: стили админки
+ */
+.am_gray-border{
+    border: 1px solid grey;
+/*    border-radius: 3px;*/
+}
+
+.am__add-sect{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.am__list-sect,
+.am__note-sect{
+    padding: 20px;
+    margin: 20px;
+}
+
+.am__fields-container{
+    min-width: 230px;
+}
+
+.ac-header,
+.am__add-sect,
+.am_add-field,
+.am__fields-container{
+    position: relative;
+    padding: 30px 30px 40px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ac-header{
+    padding-bottom: 0;
+}
+
+/*Fields table*/
+.am_fields-table,
+.am_fields-table *{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.am_fields-table th{
+    padding: 10px;
+}
+
+.am_fields-table td{
+    padding: 1px 10px;
+}
+
+.am_field-order{
+    width: 50px;
+}
+
+.am__system-message *{
+    white-space: pre;
+}
+
+.list__form-name{
+    cursor: pointer;
+}
+
+.list__form-name:hover{
+    color: rgb(0,115,170);
+    text-decoration: underline;
+}
+
+.admin-blue-header{
+    color: rgb(0,124,186);
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+.blue-border-button{
+    border: 2px solid rgb(0,124,186);
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    background-color: rgba(0,124,186,.2);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.blue-border-button:hover{
+    background-color: rgba(0,124,186,.5);
+}
+
+.ac-p{
+    margin-bottom: 2px;
+}
+
+.ac-input-p{
+    margin-top: 0px;
+}
+
+.blue-border-input{
+    border-color: rgb(0,124,186) !important;
+}

@@ -1,0 +1,21 @@
+augcatmailer.php
+    run();     -> class-augcatmailer.php
+    функции, выполняемые при активации, деактивации.
+    // If this file is called directly, abort.
+    
+admin \ class-augcatmailer-admin.php
+    Регистрация в меню админки.
+    Функции для обработки ajax-запросов в админке.
+    Подключение css и js в админке.
+    
+admin \ partials \ augcatmailer-admin-display.php
+    Шаблон страницы плагина в админке.
+    
+includes \ class-augcatmailer.php
+    Инициализация плагина.
+    Создание объекта Loader.
+    Подгрузка зависимостей, локализации, определение хуков админки и публичной части (в т.ч. хуков для ajax) посредством объекта Loader.
+    run();
+    
+includes \ class-augcatmailer-save-form.php
+    Класс для сохранения формы в админке. Сохраняет html в файлы.
